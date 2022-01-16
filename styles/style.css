@@ -1,0 +1,232 @@
+/* ------------------Base Styles------------------*/
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background: #EDEDED;
+}
+.wraper {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+/* ------------------Header Styles------------------*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 0;
+}
+.header__logo {
+    background: no-repeat left/contain url("../assets/icons/logo.png");
+    width: 161px;
+    height: 80px;
+}
+.header__nav {
+    font-size: 16px;
+    margin: 0 10px;
+}
+.header__link {
+    margin: 0 5px;
+    line-height: 150%;
+}
+.header__button {
+    background: #423F3E;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 11px 15px;
+    font-weight: bold;
+    font-size: 18px;
+    width: 161px;
+}
+.header__menu-btn {
+    display: none;
+}
+/* ------------------Hero Styles------------------*/
+.hero {
+    padding: 200px 0 ;
+}
+.hero__content {
+    width: 80%;
+    margin: 0 auto;
+}
+.hero__title {
+    margin-bottom: 0.6em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 120%;
+}
+.hero__subtitle {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%;
+}
+/* ------------------About Styles------------------*/
+.about {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0;
+    align-items: center;
+}
+.about__content {
+    margin-right: 15px;
+    width: 50%;
+}
+.about__title {
+    font-weight: bold;
+    font-size: 53px;
+    line-height: 120%;
+    margin-bottom: 1.2em;
+}
+.about__articles {
+    display: flex;
+}
+.about__article {
+    width: 266px;
+    margin: 0 auto;
+}
+.about__article-preview {
+    margin-bottom: 1.2em;
+    font-size: 16px;
+    line-height: 150%;
+}
+.about__link {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+}
+.about__image {
+    background: no-repeat center/contain url(../assets/images/about-dog.jpg);
+    width: 534px;
+    height: 534px;
+}
+/* ------------------Service Styles------------------*/
+.service{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.service__article {
+    width: 45%;
+}
+.service__title {
+    margin-bottom: 0.8em;
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 120%;
+}
+.service__article-text {
+    font-style: normal;
+    font-size: 18px;
+    line-height: 150%;
+}
+.service__list {
+    columns: 2;
+    column-fill: balance;
+}
+.service__item {
+    margin-left: 70px;
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 135%;
+}
+/* ------------------Showcase Styles------------------*/
+.showcase {
+    padding:  80px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.showcase__article {
+    width: 272px;
+}
+.showcase__title {
+    margin-bottom: 1em;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 135%;
+}
+.showcase__text {
+    font-size: 16px;
+    line-height: 150%;
+}
+.showcase__image-left {
+    background: no-repeat center/cover url(../assets/images/dog.jpg);
+    width: 240px;
+    height: 214px;
+    margin-left: 15px;
+}
+.showcase__image-center {
+    background: no-repeat center/cover url(../assets/images/two-dogs.jpg);
+    width: 240px;
+    height: 214px;
+    margin-left: 15px;
+}
+.showcase__image-right {
+    background: no-repeat center/cover url(../assets/images/dog-in-glass.jpg);
+    width: 240px;
+    height: 214px;
+    margin-left: 15px;
+}
+/* ------------------Reviews Styles------------------*/
+.reviews {
+    padding: 35px 0; 
+}
+.reviews__title {
+    margin-bottom: 1.2em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 53px;
+    line-height: 120%;
+}
+.reviews__content {
+    display: flex;
+    justify-content: space-around;
+}
+.reviews__review-card {
+    padding: 55px;
+    margin: 15px 20px 15px 20px;
+    box-shadow: 0px 0px 40px rgba(57, 40, 166, 0.15);
+    border-radius: 5px;
+    max-width: 434px;
+}
+.reviews__text {
+    max-width: 418px;
+    margin-bottom: 1.1em;
+    font-size: 18px;
+    line-height: 140%;
+}
+.reviews__forename {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 175%;
+}
+.reviews__position {
+    font-size: 16px;
+    line-height: 150%;
+}
+/* ------------------Footer Styles------------------*/
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+.footer__figma-logo {
+    width: 81px;
+    height: 116px;
+}
+.footer__contacts {
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.footer__social-network {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}

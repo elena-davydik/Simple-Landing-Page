@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/media.css">
+    <title>Simple Landing Page</title>
+</head>
+
+<body>
+    <div class="wraper">
+        <!-- HEADER -->
+        <header class="header">
+            <div class="header__logo"></div>
+            <nav class="header__nav">
+                <a class="header__link" href="/">Product</a>
+                <a class="header__link" href="/">About</a>
+                <a class="header__link" href="/">Contacts</a>
+            </nav>
+            <button class="header__button">Download Now</button>
+            <button class="header__menu-btn">
+                <!-- <img class="header__menu-burger" src="assets/icons/menu-burger.png" alt="menu-burger"> -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-list"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+            </button>
+        </header>
+        <!-- HERO -->
+        <div class="hero">
+            <div class="hero__content">
+                <h1 class="hero__title">Fast and powerful, just like your work</h1>
+                <p class="hero__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            </div>
+        </div>
+        <!-- ABOUT -->
+        <div class="about">
+            <div class="about__content">
+                <h3 class="about__title">Nulla commodo aliqua aliqua ut</h3>
+                <div class="about__articles">
+                    <article class="about__article">
+                        <p class="about__article-preview">Lorem quis sunt magna dolor consectetur aliqua officia laborum
+                            reprehenderit</p>
+                        <a href="/" class="about__link">Read more <img class="about__arrow" src="assets/icons/arrow.png"
+                                alt="arrow"></a>
+                    </article>
+                    <article class="about__article">
+                        <p class="about__article-preview">Lorem quis sunt magna dolor consectetur aliqua officia laborum
+                            reprehenderit</p>
+                        <a href="/" class="about__link">Read more <img class="about__arrow" src="assets/icons/arrow.png"
+                                alt="arrow"></a>
+                    </article>
+                </div>
+            </div>
+            <div class="about__image"></div>
+        </div>
+        <!-- Service -->
+        <div class="service">
+            <div class="service__article">
+                <h4 class="service__title">Nulla ut ea</h4>
+                <article class="service__article-text">Reprehenderit esse labore id veniam ut veniam non ex adipisicing
+                    amet ullamco dolor proident. Exercitation velit ea incididunt</article>
+            </div>
+            <ul class="service__list">
+                <li class="service__item">Graphic Design</li>
+                <li class="service__item">UX Design</li>
+                <li class="service__item">Prototyping</li>
+                <li class="service__item">Webflow</li>
+                <li class="service__item">Branding</li>
+                <li class="service__item">Coding</li>
+                <li class="service__item">Back-End</li>
+            </ul>
+        </div>
+        <!-- Showcase -->
+        <div class="showcase">
+            <div class="showcase__article">
+                <h5 class="showcase__title">Where teams design together</h5>
+                <p class="showcase__text">Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit
+                </p>
+            </div>
+            <div class="showcase__image-left"></div>
+            <div class="showcase__image-center"></div>
+            <div class="showcase__image-right"></div>
+        </div>
+        <!-- Reviews -->
+        <div class="reviews">
+            <h3 class="reviews__title">Nulla commodo aliqua aliqua ut</h3>
+            <div class="reviews__content">
+                <div class="reviews__review-card">
+                    <p class="reviews__text">Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet
+                        ullamco dolor proident. Exercitation velit ea incididunt sit qui do ipsum fugiat laboris minim
+                        nostrud dolor qui.</p>
+                    <h6 class="reviews__forename">Ralph Richards</h6>
+                    <p class="reviews__position">UX Designer</p>
+                </div>
+                <div class="reviews__review-card">
+                    <p class="reviews__text">Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet
+                        ullamco dolor proident. Exercitation velit ea incididunt sit qui do ipsum fugiat laboris minim
+                        nostrud dolor qui.</p>
+                    <h6 class="reviews__forename">Angel Wilson</h6>
+                    <p class="reviews__position">UX Designer</p>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer class="footer">
+            <img class="footer__figma-logo" src="assets/icons/figma-logo.png" alt="figma"></img>
+            <div class="footer__contacts">
+                <div class="footer__contacts">cillum incididunt</div>
+                <div class="footer__social-network">
+                    <a class="footer__icon" href="https://www.linkedin.com/"><img src="assets/icons/linkedin.png"
+                            alt="linkedin"></a>
+                    <a class="footer__icon" href="https://twitter.com/"><img src="assets/icons/twitter.png"
+                            alt="twitter"></a>
+                    <a class="footer__icon" href="https://www.facebook.com/"><img src="assets/icons/facebook.png"
+                            alt="facebook"></a>
+                    <a class="footer__icon" href="https://www.instagram.com/"><img src="assets/icons/instagram.png"
+                            alt="instagram"></a>
+                </div>
+                <div class="footer__developer">Nostrud aliquip laboris © 2020 Wirefigma</div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
