@@ -9,4 +9,4 @@
 
 <img src="preview.png">
 
-[DEMO] (https://elena-davydik.github.io/Simple-Landing-Page/)
+[DEMO] (https://elena-davydik.github.io/Simple-Landing-Page)
