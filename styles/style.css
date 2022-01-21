@@ -5,8 +5,8 @@ body {
 }
 .wraper {
     max-width: 1230px;
-    margin: 0 auto;
     padding: 0 15px;
+    margin: 0 auto;
 }
 /* ------------------Header Styles------------------*/
 .header {
@@ -16,26 +16,26 @@ body {
     padding: 45px 0;
 }
 .header__logo {
-    background: no-repeat left/contain url("../assets/icons/logo.png");
     width: 161px;
     height: 80px;
+    background: no-repeat left/contain url("../assets/icons/logo.png");
 }
 .header__nav {
-    font-size: 16px;
     margin: 0 10px;
+    font-size: 16px;
 }
 .header__link {
     margin: 0 5px;
     line-height: 150%;
 }
 .header__button {
-    background: #423F3E;
-    color: #FFFFFF;
-    border-radius: 5px;
-    padding: 11px 15px;
-    font-weight: bold;
-    font-size: 18px;
     width: 161px;
+    padding: 11px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #423F3E;
+    border-radius: 5px;
 }
 .header__menu-btn {
     display: none;
@@ -50,40 +50,40 @@ body {
 }
 .hero__title {
     margin-bottom: 0.6em;
+    font-size: 64px;
     text-align: center;
     font-weight: bold;
-    font-size: 64px;
     line-height: 120%;
 }
 .hero__subtitle {
+    font-size: 24px;
     text-align: center;
     font-weight: bold;
-    font-size: 24px;
     line-height: 120%;
 }
 /* ------------------About Styles------------------*/
 .about {
     display: flex;
     justify-content: space-between;
-    padding: 70px 0;
     align-items: center;
+    padding: 70px 0;
 }
 .about__content {
-    margin-right: 15px;
     width: 50%;
+    margin-right: 15px;
 }
 .about__title {
-    font-weight: bold;
-    font-size: 53px;
-    line-height: 120%;
     margin-bottom: 1.2em;
+    font-size: 53px;
+    font-weight: bold;
+    line-height: 120%;
 }
 .about__articles {
     display: flex;
 }
 .about__article {
     width: 266px;
-    margin: 0 auto;
+    margin: 0 5px;
 }
 .about__article-preview {
     margin-bottom: 1.2em;
@@ -91,20 +91,21 @@ body {
     line-height: 150%;
 }
 .about__link {
-    font-weight: bold;
+    margin-bottom: 10px;
     font-size: 18px;
+    font-weight: bold;
     line-height: 28px;
 }
 .about__image {
-    background: no-repeat center/contain url(../assets/images/about-dog.jpg);
     width: 534px;
     height: 534px;
+    background: no-repeat center/contain url(../assets/images/about-dog.jpg);   
 }
 /* ------------------Service Styles------------------*/
 .service{
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
     padding: 50px 0;
 }
 .service__article {
@@ -112,12 +113,11 @@ body {
 }
 .service__title {
     margin-bottom: 0.8em;
-    font-weight: bold;
     font-size: 39px;
+    font-weight: bold;
     line-height: 120%;
 }
 .service__article-text {
-    font-style: normal;
     font-size: 18px;
     line-height: 150%;
 }
@@ -126,49 +126,52 @@ body {
     column-fill: balance;
 }
 .service__item {
+    min-width: 100%;
     margin-left: 70px;
-    font-weight: bold;
     font-size: 31px;
+    font-weight: bold;
     line-height: 135%;
 }
 /* ------------------Showcase Styles------------------*/
 .showcase {
-    padding:  80px 0;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    padding:  80px 0;
 }
 .showcase__article {
     width: 272px;
+    text-align: left;
 }
 .showcase__title {
     margin-bottom: 1em;
-    font-weight: bold;
     font-size: 25px;
+    font-weight: bold;
     line-height: 135%;
 }
 .showcase__text {
+    margin-bottom: 1em;
     font-size: 16px;
     line-height: 150%;
 }
-.showcase__image-left {
-    background: no-repeat center/cover url(../assets/images/dog.jpg);
-    width: 240px;
-    height: 214px;
-    margin-left: 15px;
+.showcase__gallery {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
-.showcase__image-center {
-    background: no-repeat center/cover url(../assets/images/two-dogs.jpg);
+.showcase__image-container {
     width: 240px;
     height: 214px;
-    margin-left: 15px;
+    margin: 10px 10px;
 }
-.showcase__image-right {
-    background: no-repeat center/cover url(../assets/images/dog-in-glass.jpg);
-    width: 240px;
-    height: 214px;
-    margin-left: 15px;
+.showcase__image { 
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+#img-1 {
+    object-position: 0 -60px;
 }
 /* ------------------Reviews Styles------------------*/
 .reviews {
@@ -176,9 +179,9 @@ body {
 }
 .reviews__title {
     margin-bottom: 1.2em;
+    font-size: 53px;
     text-align: center;
     font-weight: bold;
-    font-size: 53px;
     line-height: 120%;
 }
 .reviews__content {
@@ -186,11 +189,11 @@ body {
     justify-content: space-around;
 }
 .reviews__review-card {
+    max-width: 434px;
     padding: 55px;
     margin: 15px 20px 15px 20px;
-    box-shadow: 0px 0px 40px rgba(57, 40, 166, 0.15);
     border-radius: 5px;
-    max-width: 434px;
+    box-shadow: 0px 0px 40px rgba(57, 40, 166, 0.15);
 }
 .reviews__text {
     max-width: 418px;
@@ -199,8 +202,8 @@ body {
     line-height: 140%;
 }
 .reviews__forename {
-    font-weight: bold;
     font-size: 18px;
+    font-weight: bold;
     line-height: 175%;
 }
 .reviews__position {
@@ -225,8 +228,7 @@ body {
     text-align: center;
 }
 .footer__social-network {
-    margin: 20px 0;
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
+    margin: 20px 0;
 }
